@@ -1,0 +1,60 @@
+{
+  "user_query": "best android mobile under 25000",
+  "chunking_details": {
+    "chunking_method": "Row Based Chunking",
+    "total_records": 2790,
+    "retrieved_chunks": 5
+  },
+  "corrective_rag_details": {
+    "constraints_extracted": {
+      "max_price": 25000,
+      "min_price": null,
+      "min_ram_gb": null,
+      "min_battery_mah": null,
+      "brand": null,
+      "min_year": null
+    },
+    "correction_action": "ambiguous_combine",
+    "retrieval_rounds": 2,
+    "relaxed_constraints": [],
+    "warning": null
+  },
+  "top_recommendation": {
+    "recommended_by": "Qwen2.5",
+    "model": "Galaxy A34 128GB",
+    "company": "Samsung",
+    "ram": "6GB",
+    "battery": "5000mAh",
+    "processor": "MediaTek Dimensity 1080",
+    "launch_year": "2023",
+    "price": "INR 22,999",
+    "raw_model_output": "Galaxy A34 128GB",
+    "match_type": "exact"
+  },
+  "other_model_recommendations": [
+    {
+      "recommended_by": "Llama3.2",
+      "model": "Moto G Play 64GB",
+      "company": "Motorola",
+      "ram": "4GB",
+      "battery": "5,000mAh",
+      "processor": "MediaTek Helio G25",
+      "launch_year": "2022",
+      "price": "INR 11,999",
+      "raw_model_output": "Moto G Play 64GB",
+      "match_type": "exact"
+    },
+    {
+      "recommended_by": "Gemma3",
+      "model": "Moto G Play 32GB",
+      "company": "Motorola",
+      "ram": "3GB",
+      "battery": "5,000mAh",
+      "processor": "MediaTek Helio G25",
+      "launch_year": "2022",
+      "price": "INR 9,999",
+      "raw_model_output": "- Moto G Play 32GB",
+      "match_type": "exact"
+    }
+  ]
+}
